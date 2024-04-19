@@ -16,14 +16,13 @@
     <header>
         <img src="../img/logo-gympalace.png" class="logo">
         <h1 class="titulo">Contacto</h1>
-        <i class='bx bx-dumbbell' style='color: #141f25'></i>
-        <nav class="navbar navbar-expand-lg">
+          <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav m-auto">
                   <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
                   </li>
@@ -37,18 +36,36 @@
                     <a class="nav-link" href="../pages/rutinas.html">Rutinas</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="../pages/comunidad.html">Comunidad</a>
-                  </li>
-                  <li class="nav-item">
                     <a class="nav-link activeSoft" href="../pages/contacto.html">Contacto</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
-    </div>
     </header>
     <main>
+      <div class="contenedorPadreForm">
+        <div class="contenedorHijoForm">
+          <h2>Formulario de Contacto</h2>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+            <input class="form-control" id="exampleFormControlInput1" placeholder="...">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Apellido</label>
+            <input class="form-control" id="exampleFormControlInput1" placeholder="...">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Dirección Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@ejemplo.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Telefono</label>
+            <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="+54 999 99 9999">
+            <input type="submit" class="enviar">
+          </div>
+        </div>
+      </div>
     </main>
     <footer>
         <div class="gradientfooter"></div>

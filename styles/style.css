@@ -4,17 +4,21 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #898681;
+    background-color: #75706f;
     font-family: "Lexend", sans-serif;
     color: #ffff;
 }
-
-
+.underlined {
+    text-decoration: underline;
+    background-color: #2c2c2c;
+    padding: 2px;
+}
 header {
     font-size: 30px;
     background-color: #2c2c2c;
 }
-.titulo {
+h1 {
+    text-align: center;
     padding: 10px;
     border-radius: 15px;
     color: #2c2c2c;
@@ -22,8 +26,18 @@ header {
     background-color: white;
     display: inline;
     position: relative;
-    top: 50px;
     left: 430px;
+}
+h2 {
+    background-color: #2c2c2c;
+    padding: 5px;
+    border-radius: 3px;
+}
+h3 {
+    background-color: #413a3a;
+    margin-right: 900px;
+    padding: 10px;
+    border-radius: 5px;
 }
 header a {
     color: white;
@@ -32,17 +46,9 @@ header a {
     border-radius: 50px;
     padding: 25px;
 }
-.bx-dumbbell {
-    font-size: 100px;
-    position: relative;
-    top: 70px;
-    left: 450px;
-    background-color: white;
-    border-radius: 15px;
-}
 .navbar {
     margin-bottom: 50px;
-    background-color: #75706f;
+    background-color: #898681;
 }
 .nav-link{
     color: #eaeaea;
@@ -54,20 +60,12 @@ header a {
 .activeSoft {
     color: #413a3a;
 }
-
 main {
     padding-left: 100px;
     padding-right: 100px;
     font-size: 22px;
 }
-.carousel-control-next-icon {
-    position: relative;
-   left: 90px; 
-}
-.carousel-control-prev-icon {
-    position: relative;
-   right: 160px; 
-}
+/*Seccion Inicio*/
 .container2 {  
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -75,8 +73,7 @@ main {
     grid-auto-flow: row;
     justify-items: center;
     grid-template-areas:
-    "hijo1 hijo2 hijo3"
-    "comunidad comunidad comunidad";
+    "hijo1 hijo2 hijo3";
     margin-top: 80px;
     margin-bottom: 80px;
   }
@@ -89,25 +86,35 @@ main {
 .tres {
     grid-area: hijo3; 
 }
-.comunidad {
-    grid-area: comunidad; 
+.portada1 a img {
+    border-radius: 15px;
+    height: 550px;
+    width: 450px;
 }
-
-.hijo a img {
-    border-radius: 10px;
+.portada1 a :hover {
+    border-radius: 15px;
+    border: 2px solid #413a3a;
+    height: 550px;
+    width: 450px;
 }
-h2 {
+.contenedorPadreindex {
+    display: flex;
+    justify-content: center;
+  }
+.contenedorHijoindex {
     background-color: #2c2c2c;
-    padding: 5px;
-    border-radius: 3px;
-    
-}
-h3 {
-    background-color: #413a3a;
-    margin-right: 900px;
-}
-
-
+    padding: 30px;
+    border-radius: 10px;
+  }
+.contenedorHijoindex img{
+    padding: 10px;
+    background-color: #2c2c2c;
+    border-radius: 20px;
+    height: 400px;
+  }
+.contenedorHijoindex img:hover{
+    border: 2px solid #eaeaea;
+  }
 footer {
     background-color: #2c2c2c;
 }
@@ -117,53 +124,406 @@ footer p {
 }
 .gradientfooter {
     height: 130px;
-    background: linear-gradient(to top, #2c2c2c, #898681);
+    background: linear-gradient(to top, #2c2c2c, #75706f);
 }
-
-.form {
-    margin: 50px;
-    font-size: 30px;
-}
-.interior {
-    padding: 30px;
-}
-.pushpulllegs {
-    width: 500px;
-    height: 500px;
-}
-.contenedorChat {
+/*Seccion Habitos*/
+.contenedorHabitos {
     display: flex;
-    background-color: #141f25;
-    border-radius: 10px;
-    height: 900px;
-    width: 1600px;
-    padding: 40px;
-    flex-direction: column;
-    color: #141f25;
-    border: 20px solid white;
+    margin: 50px 50px 50px 50px;
 }
-.msg {
-    background-color: white;
-    border-radius: 10px;
-    height: 100px;
-    width: 400px;
-    margin: 10px;
-    padding: 10px;
+.contenedorHabitosHijo {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    background-color: #2c2c2c;
+    padding: 30px;
+    border-radius: 20px;
 }
-.yo {
-    align-self: flex-end;
+.contenedorHabitosHijo a {
+    text-decoration: none;
+    color: #eaeaea;
+    background-color: #75706f;
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 30px;
+    height: 70px;
 }
-.otro {
-    align-self: flex-start;
+.contenedorHabitosHijo a:hover {
+    border: 2px solid #eaeaea;
 }
-.portada1 a :hover {
-    border: 2px solid #413a3a;
-    height: 550px;
+.habittracker {
+    border-radius: 15px;
+}
+/*Seccion Contacto*/
+.contenedorPadreForm {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.contenedorHijoForm {
+    background-color: #eaeaea;
+    border-radius: 20px;
+    height: 700px;
     width: 450px;
+    color: #141f25;
+    padding: 20px;
+    justify-content: center;
 }
-.portada2 a :hover {
-    border: 2px solid #413a3a;
-    height: 250px;
-    width: 750px;
+.contenedorHijoForm h2 {
+    color: #eaeaea;
+    text-align: center;
+    background-color: #2c2c2c;
+    border-radius: 40px;
+    margin: 10px 50px 30px 50px;
+    padding: 15px;
 }
-/*@media screen and (max-width:480px)*/
+.enviar {
+    background-color: #2c2c2c;
+    color: #eaeaea;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 30px 0px 30px 120px;
+}
+/*Mediaquerris*/
+@media (min-width: 320px){
+    main {
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 20px;
+    }
+    .logo {
+        height: 250px;
+        width: 250px;
+    }
+    h1 {
+        margin: 0px 20px 10px 20px;
+        font-size: 40px;
+        display: block;
+        text-align: center;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    h3 {
+        background-color: #413a3a;
+        margin-right: 0px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .container2 {  
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        row-gap: 50px;
+        grid-auto-flow: row;
+        justify-items: center;
+        grid-template-areas:
+        "hijo1"
+        "hijo2"
+        "hijo3";
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .contenedorHijoindex {
+        background-color: #2c2c2c;
+        padding: 10px;
+        border-radius: 15px;
+        height: auto;
+        width: 380px;
+    }
+    .portada1 a img {
+        height: auto;
+        width: 300px;
+    }
+    .portada1 a img:hover {
+        width: 300px;
+        height: auto;
+    }
+    .contenedorHabitos {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px;
+    }
+    .contenedorHabitosHijo {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        margin-left: 0px;
+        background-color: #2c2c2c;
+        padding: 30px;
+        border-radius: 20px;
+    }
+     .contenedorHabitosHijo a {
+        text-decoration: none;
+        color: #eaeaea;
+        background-color: #75706f;
+        font-size: 25px;
+        padding: 15px;
+        border-radius: 30px;
+        height: 70px;
+    }
+}
+@media (min-width: 600px){
+    main {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 22px;
+    }
+    .logo {
+        height: 250px;
+        width: 250px;
+    }
+    h1 {
+        margin: 0px 20px 10px 20px;
+        font-size: 40px;
+        display: inline;
+        text-align: center;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    h3 {
+        background-color: #413a3a;
+        margin-right: 0px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .container2 {  
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        row-gap: 50px;
+        grid-auto-flow: row;
+        justify-items: center;
+        grid-template-areas:
+        "hijo1"
+        "hijo2"
+        "hijo3";
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .contenedorHijoindex {
+        background-color: #2c2c2c;
+        padding: 15px;
+        border-radius: 10px;
+        height: auto;
+        width: 590px;
+    }
+    .portada1 a img {
+        height: auto;
+        width: 400px;
+    }
+    .portada1 a img:hover {
+        width: 400px;
+        height: auto;
+    }
+    .contenedorHabitos {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px;
+    }
+    .contenedorHabitosHijo {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        margin-left: 0px;
+        background-color: #2c2c2c;
+        padding: 30px;
+        border-radius: 20px;
+    }
+}
+@media (min-width: 900px){
+    main {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 22px;
+    }
+    .logo {
+        height: 250px;
+        width: 250px;
+    }
+    h1 {
+        margin: 0px 20px 10px 20px;
+        font-size: 40px;
+        display: inline;
+        text-align: center;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    h3 {
+        background-color: #413a3a;
+        margin-right: 0px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .container2 {  
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        row-gap: 50px;
+        grid-auto-flow: row;
+        justify-items: center;
+        grid-template-areas:
+        "hijo1 hijo2 hijo3";
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .portada1 a img {
+        height: auto;
+        width: 290px;
+    }
+    .portada1 a img:hover {
+        width: 290px;
+        height: auto;
+    }
+    .contenedorHijoindex {
+        background-color: #2c2c2c;
+        padding: 15px;
+        border-radius: 10px;
+        height: auto;
+        width: 850px;
+    }
+    .contenedorHabitos {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px;
+    }
+    .contenedorHabitosHijo {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        margin-left: 0px;
+        background-color: #2c2c2c;
+        padding: 30px;
+        border-radius: 20px;
+    }
+}
+@media (min-width: 1100px){
+    main {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 22px;
+    }
+    .logo {
+        height: 250px;
+        width: 250px;
+    }
+    header  h1{
+        text-align: center;
+    }
+    h3 {
+        background-color: #413a3a;
+        margin-right: 0px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .container2 {  
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        row-gap: 50px;
+        grid-auto-flow: row;
+        justify-items: center;
+        grid-template-areas:
+        "hijo1 hijo2 hijo3";
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .portada1 a img {
+        height: auto;
+        width: 350px;
+    }
+    .portada1 a img:hover {
+        width: 350px;
+        height: auto;
+    }
+    .contenedorHijoindex {
+        background-color: #2c2c2c;
+        padding: 15px;
+        border-radius: 10px;
+        height: auto;
+        width: 1050px;
+    }
+    .contenedorHabitos {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px;
+    }
+    .contenedorHabitosHijo {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        margin-left: 0px;
+        background-color: #2c2c2c;
+        padding: 30px;
+        border-radius: 20px;
+    }
+}
+@media (min-width: 1400px){
+    main {
+        padding-left: 100px;
+        padding-right: 100px;
+        font-size: 25px;
+    }
+    .logo {
+        height: auto;
+        width: 350px;
+    }
+    h1 {
+        padding: 10px;
+        border-radius: 15px;
+        font-size: 64px;
+        display: inline;
+        position: relative;
+        left: 430px;
+    }
+    h3 {
+        background-color: #413a3a;
+        margin-right: 0px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .container2 {  
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        row-gap: 50px;
+        grid-auto-flow: row;
+        justify-items: center;
+        grid-template-areas:
+        "hijo1 hijo2 hijo3";
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .portada1 a img {
+        height: auto;
+        width: 420px;
+    }
+    .portada1 a img:hover {
+        width: 420px;
+        height: auto;
+    }
+    .contenedorHijoindex {
+        background-color: #2c2c2c;
+        padding: 15px;
+        border-radius: 10px;
+        height: auto;
+        width: 1750px;
+      }
+    .contenedorHabitos {
+        display: flex;
+        flex-wrap: nowrap;
+        margin: 20px;
+    }
+    .contenedorHabitosHijo {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        margin-left: 10px;
+        background-color: #2c2c2c;
+        padding: 30px;
+        border-radius: 20px;
+    }
+}

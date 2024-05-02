@@ -1,0 +1,26 @@
+body {
+    background-color: #9b9589; 
+    color: $blacksoft;
+    .underlined {
+        color: $mywhite;
+        text-decoration: underline;
+        background-color: $blacksoft;
+        padding: 2px;
+    }
+
+    .heading2 {
+        color: $mywhite;
+        background-color: $blacksoft;
+        padding: 5px;
+        margin-top: 20px;
+        border-radius: 3px;
+        text-align: center;
+    }
+    .heading3 {
+        color: $mywhite;
+        background-color: $blacksoft;
+        margin-right: 900px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+}

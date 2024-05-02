@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@mixin centrarMultim {
+    display: block;
+    margin: 0px auto;
+}
+
+$blacksoft: #2c2c2c;
+$mywhite: #e0e0e0;
+$font: "Montserrat", sans-serif;
+
+@import"_body.scss";
+@import"header.scss";
+@import"_vwindex.scss";
+@import"_vwcontacto.scss";
+@import"_vwhabitos.scss";
+@import"_vwnutricion.scss" ;
+@import"_footer.scss";
+@import"_mediaquerries.scss";

@@ -1,0 +1,81 @@
+
+main {
+    padding: 10px 250px;
+    font-size: 22px;
+    font-family: $font;
+        .contenedorPadreindex {
+        display: flex;
+        justify-content: center;
+            .contenedorHijoindex {
+                background-color: $mywhite;
+                padding: 30px;
+                border-radius: 10px;
+            }
+        }
+        .container2 {  
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 50px;
+        grid-auto-flow: row;
+        justify-items: center;
+        grid-template-areas:
+        "hijo1 hijo2 hijo3";
+        margin-top: 80px;
+        margin-bottom: 80px;
+        .uno { 
+            grid-area: hijo1; 
+        }
+        .dos {
+            grid-area: hijo2; 
+        }
+        .tres {
+            grid-area: hijo3; 
+        }
+        .portada1 {
+            a {
+                img {
+                    border-radius: 15px;
+                    height: auto;
+                    width: 450px;
+                }
+                img:hover {
+                    border: 2px solid $blacksoft;
+                }
+            }
+        }
+    }
+    .cardPadre {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        padding-top: 80px;
+        height: 530px;
+        width: auto;
+        margin-bottom: 380px;
+        .cardHijoL {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            height: 600px;
+            width: 350px;
+            padding: 30px;
+            background-color: $mywhite;
+            border-radius: 20px;
+            margin: 20px;
+            img {
+                height: 200px;
+                border-radius: 50%;
+                transition: height 90ms, width 1s;
+                border: 2px solid $blacksoft;
+            }
+            img:hover {
+                height: 220px;
+            }
+        }
+        .textoL {
+            font-size: 20px;
+            margin-top: 20px;
+            color: $blacksoft;
+        }
+    }
+}

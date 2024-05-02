@@ -1,0 +1,12 @@
+footer {
+    background-color: #2c2c2c;
+    font-family: $font;
+    color: $mywhite;
+    .gradientfooter {
+        height: 130px;
+        background: linear-gradient(to top, #2c2c2c, #9b9589);
+    }
+    .textoFooter {
+        padding: 80px 0px 10px 30px;
+    }
+}

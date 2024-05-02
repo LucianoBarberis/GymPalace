@@ -1,0 +1,42 @@
+main {
+    img {
+        height: 300px;
+        width: auto;
+        border-radius: 30px;
+        @include centrarMultim;
+    }
+    iframe {
+        width: 560px;
+        height: 315px;
+        @include centrarMultim;
+    } 
+    .contenedorHabitos {
+        display: flex;
+        margin: 0px 50px;
+        .habittracker {
+            border-radius: 15px;
+            @include centrarMultim;
+        }
+        .contenedorHabitosHijo {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-left: 50px;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 20px;
+            a {
+                text-decoration: none;
+                color: #eaeaea;
+                background-color: #75706f;
+                font-size: 30px;
+                padding: 15px;
+                border-radius: 30px;
+                height: 70px;
+            }
+            a:hover {
+                border: 2px solid #eaeaea;
+            }
+        }
+    }
+}

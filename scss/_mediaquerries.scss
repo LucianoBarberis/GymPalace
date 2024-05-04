@@ -25,16 +25,35 @@
             "hijo1"
             "hijo2"
             "hijo3";
-            .portada1 {
-                a {
-                    img {
-                        height: auto;
-                        width: 250px;
-                    }
-                    img:hover {
-                        height: auto;
-                        width: 250px;
-                    }
+            a {
+                font-size: 40px;
+                .uno {
+                    background-size: cover;
+                    width: 250px;
+                    height: 400px;
+                    -webkit-box-shadow: inset 0px 0px 30px 20px rgba(155,149,137,1);
+                    -moz-box-shadow: inset 0px 0px 30px 20px rgba(155,149,137,1);
+                    box-shadow: inset 0px 0px 130px 20px rgba(155,149,137,1);
+                }
+                .dos { 
+                    background-size: cover;
+                    width: 250px;
+                    height: 400px;
+                    -webkit-box-shadow: inset 0px 0px 30px 20px rgba(155,149,137,1);
+                    -moz-box-shadow: inset 0px 0px 30px 20px rgba(155,149,137,1);
+                    box-shadow: inset 0px 0px 130px 20px rgba(155,149,137,1);
+                }
+                .tres { 
+                    background-size: cover;
+                    width: 250px;
+                    height: 400px;
+                    -webkit-box-shadow: inset 0px 0px 30px 20px rgba(155,149,137,1);
+                    -moz-box-shadow: inset 0px 0px 30px 20px rgba(155,149,137,1);
+                    box-shadow: inset 0px 0px 130px 20px rgba(155,149,137,1);
+                }
+                .portada:hover {
+                    width: 250px;
+                    height: 400px;
                 }
             }
         }
@@ -89,22 +108,42 @@
             }
         }
         .container2 {  
+            display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: repeat(3, 1fr);
             grid-template-areas:
             "hijo1"
             "hijo2"
             "hijo3";
-            .portada1 {
-                a {
-                    img {
-                        height: auto;
-                        width: 350px;
-                    }
-                    img:hover {
-                        height: auto;
-                        width: 350px;
-                    }
+            a {
+                font-size: 50px;
+                .uno {
+                    background-size: cover;
+                    width: 350px;
+                    height: 450px;
+                    -webkit-box-shadow: inset 0px 0px 30px 20px rgba(155,149,137,1);
+                    -moz-box-shadow: inset 0px 0px 30px 20px rgba(155,149,137,1);
+                    box-shadow: inset 0px 0px 130px 40px rgba(155,149,137,1);
+                }
+                .dos { 
+                    background-size: cover;
+                    width: 350px;
+                    height: 450px;
+                    -webkit-box-shadow: inset 0px 0px 30px 20px rgba(155,149,137,1);
+                    -moz-box-shadow: inset 0px 0px 30px 20px rgba(155,149,137,1);
+                    box-shadow: inset 0px 0px 130px 40px rgba(155,149,137,1);
+                }
+                .tres { 
+                    background-size: cover;
+                    width: 350px;
+                    height: 450px;
+                    -webkit-box-shadow: inset 0px 0px 30px 20px rgba(155,149,137,1);
+                    -moz-box-shadow: inset 0px 0px 30px 20px rgba(155,149,137,1);
+                    box-shadow: inset 0px 0px 130px 40px rgba(155,149,137,1);
+                }
+                .portada:hover {
+                    width: 350px;
+                    height: 450px;
                 }
             }
         }
@@ -171,18 +210,35 @@
             "hijo1"
             "hijo2"
             "hijo3";
-            margin-top: 80px;
-            margin-bottom: 80px;
-            .portada1 {
-                a {
-                    img {
-                        height: auto;
-                        width: 340px;
-                    }
-                    img:hover {
-                        height: auto;
-                        width: 340px;
-                    }
+            a {
+                font-size: 60px;
+                .uno {
+                    background-size: cover;
+                    width: 450px;
+                    height: 550px;
+                    -webkit-box-shadow: inset 0px 0px 30px 20px rgba(155,149,137,1);
+                    -moz-box-shadow: inset 0px 0px 30px 20px rgba(155,149,137,1);
+                    box-shadow: inset 0px 0px 130px 60px rgba(155,149,137,1);
+                }
+                .dos { 
+                    background-size: cover;
+                    width: 450px;
+                    height: 550px;
+                    -webkit-box-shadow: inset 0px 0px 30px 20px rgba(155,149,137,1);
+                    -moz-box-shadow: inset 0px 0px 30px 20px rgba(155,149,137,1);
+                    box-shadow: inset 0px 0px 130px 60px rgba(155,149,137,1);
+                }
+                .tres { 
+                    background-size: cover;
+                    width: 450px;
+                    height: 550px;
+                    -webkit-box-shadow: inset 0px 0px 30px 20px rgba(155,149,137,1);
+                    -moz-box-shadow: inset 0px 0px 30px 20px rgba(155,149,137,1);
+                    box-shadow: inset 0px 0px 130px 60px rgba(155,149,137,1);
+                }
+                .portada:hover {
+                    width: 450px;
+                    height: 550px;
                 }
             }
         }
@@ -246,23 +302,37 @@
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             grid-template-rows: 1fr;
-            row-gap: 50px;
-            grid-auto-flow: row;
-            justify-content: center;
             grid-template-areas:
             "hijo1 hijo2 hijo3";
-            margin-top: 80px;
-            margin-bottom: 80px;
-            .portada1 {
-                a {
-                    img {
-                        height: auto;
-                        width: 340px;
-                    }
-                    img:hover {
-                        height: auto;
-                        width: 340px;
-                    }
+            a {
+                font-size: 50px;
+                .uno {
+                    background-size: cover;
+                    width: 330px;
+                    height: 430px;
+                    -webkit-box-shadow: inset 0px 0px 30px 20px rgba(155,149,137,1);
+                    -moz-box-shadow: inset 0px 0px 30px 20px rgba(155,149,137,1);
+                    box-shadow: inset 0px 0px 130px 60px rgba(155,149,137,1);
+                }
+                .dos { 
+                    background-size: cover;
+                    width: 330px;
+                    height: 430px;
+                    -webkit-box-shadow: inset 0px 0px 30px 20px rgba(155,149,137,1);
+                    -moz-box-shadow: inset 0px 0px 30px 20px rgba(155,149,137,1);
+                    box-shadow: inset 0px 0px 130px 60px rgba(155,149,137,1);
+                }
+                .tres { 
+                    background-size: cover;
+                    width: 330px;
+                    height: 430px;
+                    -webkit-box-shadow: inset 0px 0px 30px 20px rgba(155,149,137,1);
+                    -moz-box-shadow: inset 0px 0px 30px 20px rgba(155,149,137,1);
+                    box-shadow: inset 0px 0px 130px 60px rgba(155,149,137,1);
+                }
+                .portada:hover {
+                    width: 330px;
+                    height: 430px;
                 }
             }
         }
@@ -311,23 +381,37 @@
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             grid-template-rows: 1fr;
-            row-gap: 50px;
-            grid-auto-flow: row;
-            justify-content: center;
             grid-template-areas:
             "hijo1 hijo2 hijo3";
-            margin-top: 80px;
-            margin-bottom: 80px;
-            .portada1 {
-                a {
-                    img {
-                        height: auto;
-                        width: 450px;
-                    }
-                    img:hover {
-                        height: auto;
-                        width: 450px;
-                    }
+            a {
+                font-size: 50px;
+                .uno {
+                    background-size: cover;
+                    width: 360px;
+                    height: 460px;
+                    -webkit-box-shadow: inset 0px 0px 30px 20px rgba(155,149,137,1);
+                    -moz-box-shadow: inset 0px 0px 30px 20px rgba(155,149,137,1);
+                    box-shadow: inset 0px 0px 130px 60px rgba(155,149,137,1);
+                }
+                .dos { 
+                    background-size: cover;
+                    width: 360px;
+                    height: 460px;
+                    -webkit-box-shadow: inset 0px 0px 30px 20px rgba(155,149,137,1);
+                    -moz-box-shadow: inset 0px 0px 30px 20px rgba(155,149,137,1);
+                    box-shadow: inset 0px 0px 130px 60px rgba(155,149,137,1);
+                }
+                .tres { 
+                    background-size: cover;
+                    width: 360px;
+                    height: 460px;
+                    -webkit-box-shadow: inset 0px 0px 30px 20px rgba(155,149,137,1);
+                    -moz-box-shadow: inset 0px 0px 30px 20px rgba(155,149,137,1);
+                    box-shadow: inset 0px 0px 130px 60px rgba(155,149,137,1);
+                }
+                .portada:hover {
+                    width: 360px;
+                    height: 460px;
                 }
             }
         }

@@ -1,0 +1,15 @@
+@mixin centrarMultim {
+    display: block;
+    margin: 0px auto;
+}
+@mixin portadasMenu {
+    height: 550px;
+    width: 450px;
+    border-radius: 20px;
+    -webkit-box-shadow: inset 0px 0px 120px 70px rgba(155,149,137,1);
+    -moz-box-shadow: inset 0px 0px 120px 70px rgba(155,149,137,1);
+    box-shadow: inset 0px 0px 120px 70px rgba(155,149,137,1);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}

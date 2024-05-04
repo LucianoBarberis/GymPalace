@@ -3,15 +3,8 @@
     margin: 0;
     box-sizing: border-box;
 }
-@mixin centrarMultim {
-    display: block;
-    margin: 0px auto;
-}
-
-$blacksoft: #2c2c2c;
-$mywhite: #e0e0e0;
-$font: "Montserrat", sans-serif;
-
+@import"_mixins";
+@import"_variables.scss";
 @import"_body.scss";
 @import"header.scss";
 @import"_vwindex.scss";

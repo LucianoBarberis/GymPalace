@@ -22,27 +22,33 @@ main {
         "hijo1 hijo2 hijo3";
         margin-top: 80px;
         margin-bottom: 80px;
-        .uno { 
-            grid-area: hijo1; 
-        }
-        .dos {
-            grid-area: hijo2; 
-        }
-        .tres {
-            grid-area: hijo3; 
-        }
-        .portada1 {
-            a {
-                img {
-                    border-radius: 15px;
-                    height: auto;
-                    width: 450px;
-                }
-                img:hover {
-                    border: 2px solid $blacksoft;
-                }
+        a {
+            text-decoration: none;
+            color: $blacksoft;
+            font-size: 60px;
+            border-radius: 20px;
+            .uno { 
+                grid-area: hijo1;
+                background-image: url(../img/habitos-portada.png);
+                @include portadasMenu;
+            }
+            .dos { 
+                grid-area: hijo2;
+                background-image: url(../img/nutricion-portada.png);
+                @include portadasMenu;
+            }
+            .tres { 
+                grid-area: hijo3;
+                background-image: url(../img/rutinas-portada.png);
+                @include portadasMenu;
+            }
+            .portada:hover {
+            border: 1px solid $blacksoft;
+            height: 550px;
+            width: 450px;
             }
         }
+
     }
     .cardPadre {
         display: flex;

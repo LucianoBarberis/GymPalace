@@ -1,16 +1,8 @@
 main {
     .contenedorNutri {
-        padding: 20px;
-        border-radius: 20px;
-        margin-bottom: 20px;
-        background-color: $mywhite;
+        @include bghead;
         h2 {
-            text-align: center;
-            background-color: $blacksoft;
-            color: $mywhite;
-            padding: 5px;
-            margin: 0px auto;
-            border-radius: 10px;
+            @include bgheadh2;
         }
     }
     .imgnutri {

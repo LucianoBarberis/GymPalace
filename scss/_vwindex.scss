@@ -10,6 +10,7 @@ main {
                 background-color: $mywhite;
                 padding: 30px;
                 border-radius: 10px;
+                @include sombra;
             }
         }
         .container2 {  
@@ -68,6 +69,7 @@ main {
             background-color: $mywhite;
             border-radius: 20px;
             margin: 20px;
+            @include sombra;
             img {
                 height: 200px;
                 border-radius: 50%;

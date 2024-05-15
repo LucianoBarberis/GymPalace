@@ -13,3 +13,22 @@
     justify-content: center;
     align-items: end;
 }
+@mixin bghead {
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-color: $mywhite;
+    }
+@mixin bgheadh2 {
+    text-align: center;
+    background-color: $blacksoft;
+    color: $mywhite;
+    padding: 5px;
+    margin: 0px auto;
+    border-radius: 10px;
+}
+@mixin sombra {
+    -webkit-box-shadow: 15px 15px 40px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 15px 15px 40px 0px rgba(0,0,0,0.75);
+    box-shadow: 15px 15px 40px 0px rgba(0,0,0,0.75);
+}

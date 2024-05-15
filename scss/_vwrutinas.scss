@@ -1,0 +1,8 @@
+main {
+    .contRutinas {
+        @include bghead;
+        h2 {
+            @include bgheadh2;
+        }
+    }
+}

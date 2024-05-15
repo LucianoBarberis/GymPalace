@@ -1,4 +1,10 @@
 main {
+    .contHabitos {
+        @include bghead;
+        h2 {
+            @include bgheadh2;
+        }
+    }
     img {
         height: 300px;
         width: auto;
